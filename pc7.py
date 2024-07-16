@@ -4,8 +4,8 @@ def no_of_days(date1,date2):
     date_format = "%y-%m-%d"
     a=datetime.strptime(date1,date_format)
     b=datetime.strptime(date2,date_format)
-    delta = b-a
-    return abs(delta.days)
+    diff = b-a
+    return abs(diff.days)
 date1=input("enter the first date:")
 date2=input("enter the first date:")
 
