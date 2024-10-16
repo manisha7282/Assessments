@@ -10,5 +10,5 @@ def  returnsum(dict):
     return sum(dict.values())
 
 
-dict={'a':100,'b':200,'c':300}
+dict={'b':100,'c':200,'d':300}
 print("sum:" ,returnsum(dict)) 
