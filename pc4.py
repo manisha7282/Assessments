@@ -12,8 +12,8 @@ def is_prime(n):
 
 
 
-print("Prime numbers from 1 to 100:")
-for num in range(1, 101):
+print("Prime numbers from 1 to 200:")
+for num in range(1, 201):
     if is_prime(num):
         print(num)
            
